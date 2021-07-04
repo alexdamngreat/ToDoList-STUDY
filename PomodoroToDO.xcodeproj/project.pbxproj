@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6A1F0674268E3B810072C675 /* PomodoroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1F0673268E3B810072C675 /* PomodoroView.swift */; };
-		6A1F0677268E3E0B0072C675 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1F0676268E3E0B0072C675 /* Category.swift */; };
 		6AB42133268B471900D48C1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB42132268B471900D48C1C /* AppDelegate.swift */; };
 		6AB42135268B471900D48C1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB42134268B471900D48C1C /* SceneDelegate.swift */; };
 		6AB42137268B471900D48C1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB42136268B471900D48C1C /* ContentView.swift */; };
@@ -29,7 +28,6 @@
 
 /* Begin PBXFileReference section */
 		6A1F0673268E3B810072C675 /* PomodoroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroView.swift; sourceTree = "<group>"; };
-		6A1F0676268E3E0B0072C675 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		6AB4212F268B471900D48C1C /* PomodoroToDO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomodoroToDO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB42132268B471900D48C1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AB42134268B471900D48C1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 				6AE82C5A268BD1C500228BF5 /* TaskDB.swift */,
 				6AE82C43268BA81700228BF5 /* Task.swift */,
 				6AC5B02D268C9F1000D92285 /* TaskForm.swift */,
-				6A1F0676268E3E0B0072C675 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -219,7 +216,6 @@
 				6AC5B02E268C9F1000D92285 /* TaskForm.swift in Sources */,
 				6AE82C44268BA81700228BF5 /* Task.swift in Sources */,
 				6AB42133268B471900D48C1C /* AppDelegate.swift in Sources */,
-				6A1F0677268E3E0B0072C675 /* Category.swift in Sources */,
 				6AB42135268B471900D48C1C /* SceneDelegate.swift in Sources */,
 				6AB42137268B471900D48C1C /* ContentView.swift in Sources */,
 				6AE82C5B268BD1C500228BF5 /* TaskDB.swift in Sources */,
@@ -363,6 +359,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PomodoroToDO/Preview Content\"";
+				DEVELOPMENT_TEAM = P2P78F9LAM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PomodoroToDO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -383,6 +380,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PomodoroToDO/Preview Content\"";
+				DEVELOPMENT_TEAM = P2P78F9LAM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PomodoroToDO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

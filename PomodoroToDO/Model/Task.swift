@@ -14,8 +14,6 @@ struct Task: Identifiable {
     let doneState: Bool
     let taskNote: String
     
-    //var categoryImage: Category.image
-    
 }
 
 extension Task {
@@ -27,9 +25,3 @@ extension Task {
         taskNote = taskDatabase.taskNote
     }
 }
-
-//var testDatabase: [Task] = [
-  //  Task(id: 1, taskName: "Task 1", category: "Home"),
-    //Task(id: 2, taskName: "Task 2", category: "Work"),
-   // Task(id: 3, taskName: "Task 3", category: "Study")
-    //]
